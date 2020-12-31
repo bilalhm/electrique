@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_af7e7e02189141188060327c235fd6c6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_af7e7e02189141188060327c235fd6c6" ></div>
+        
+</body>
+<script>    
+    
+            var map_af7e7e02189141188060327c235fd6c6 = L.map(
+                "map_af7e7e02189141188060327c235fd6c6",
+                {
+                    center: [36.204692, 1.260199],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_37621a5b6159482aa97e9abbe6f1feea = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_af7e7e02189141188060327c235fd6c6);
+        
+    
+            var feature_group_2bc72d2597304c62b6a5b2882a6edde8 = L.featureGroup(
+                {}
+            ).addTo(map_af7e7e02189141188060327c235fd6c6);
+        
+    
+            var marker_b43d97c4254542f2a52a55cf698eea19 = L.marker(
+                [36.208543, 1.248484],
+                {}
+            ).addTo(feature_group_2bc72d2597304c62b6a5b2882a6edde8);
+        
+    
+            var icon_f4827da613d048a1bbdb4e15acbb6c82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b43d97c4254542f2a52a55cf698eea19.setIcon(icon_f4827da613d048a1bbdb4e15acbb6c82);
+        
+    
+        var popup_056b4328e72d481892bf7a412bf6a0a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2fb3508f3b842b3978092f24567605a = $(`<div id="html_e2fb3508f3b842b3978092f24567605a" style="width: 100.0%; height: 100.0%;"><b>name  : </b> poste 1<br> <b>max_consomation : </b> 3000 KW</div>`)[0];
+            popup_056b4328e72d481892bf7a412bf6a0a5.setContent(html_e2fb3508f3b842b3978092f24567605a);
+        
+
+        marker_b43d97c4254542f2a52a55cf698eea19.bindPopup(popup_056b4328e72d481892bf7a412bf6a0a5)
+        ;
+
+        
+    
+    
+            var marker_cacfe714d3df4caa88884c0f21dca39e = L.marker(
+                [36.204701, 1.250494],
+                {}
+            ).addTo(feature_group_2bc72d2597304c62b6a5b2882a6edde8);
+        
+    
+            var icon_ba94061a7c504a7aad379654b7c7d8f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cacfe714d3df4caa88884c0f21dca39e.setIcon(icon_ba94061a7c504a7aad379654b7c7d8f1);
+        
+    
+        var popup_800364832d804a3b99ec0ca3961dcc76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71267d65d71e45fe9190a26850eaeaa4 = $(`<div id="html_71267d65d71e45fe9190a26850eaeaa4" style="width: 100.0%; height: 100.0%;"><b>name  : </b> poste 2<br> <b>max_consomation : </b> 2350 KW</div>`)[0];
+            popup_800364832d804a3b99ec0ca3961dcc76.setContent(html_71267d65d71e45fe9190a26850eaeaa4);
+        
+
+        marker_cacfe714d3df4caa88884c0f21dca39e.bindPopup(popup_800364832d804a3b99ec0ca3961dcc76)
+        ;
+
+        
+    
+    
+            var marker_c28c2897f1d44e35975baed13548804c = L.marker(
+                [36.196153, 1.248437],
+                {}
+            ).addTo(feature_group_2bc72d2597304c62b6a5b2882a6edde8);
+        
+    
+            var icon_9f0e6ba3300c42cc8e668217575508f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c28c2897f1d44e35975baed13548804c.setIcon(icon_9f0e6ba3300c42cc8e668217575508f5);
+        
+    
+        var popup_701a4e2c5d0c4a79a8d511b168ef8705 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6293965d46145e4a46a2dac621a48c8 = $(`<div id="html_d6293965d46145e4a46a2dac621a48c8" style="width: 100.0%; height: 100.0%;"><b>name  : </b> poste 3<br> <b>max_consomation : </b> 10000 KW</div>`)[0];
+            popup_701a4e2c5d0c4a79a8d511b168ef8705.setContent(html_d6293965d46145e4a46a2dac621a48c8);
+        
+
+        marker_c28c2897f1d44e35975baed13548804c.bindPopup(popup_701a4e2c5d0c4a79a8d511b168ef8705)
+        ;
+
+        
+    
+    
+            var marker_4aac8bf5986e4bb59298ef2529b1fdc8 = L.marker(
+                [36.194014, 1.25231],
+                {}
+            ).addTo(feature_group_2bc72d2597304c62b6a5b2882a6edde8);
+        
+    
+            var icon_381f8c613c7c4a56ad8d352d67eb4ee6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4aac8bf5986e4bb59298ef2529b1fdc8.setIcon(icon_381f8c613c7c4a56ad8d352d67eb4ee6);
+        
+    
+        var popup_3806cbd36c8c415d82d873f04d84d033 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94e8246f55fe4e5d99f775273a2aba0e = $(`<div id="html_94e8246f55fe4e5d99f775273a2aba0e" style="width: 100.0%; height: 100.0%;"><b>name  : </b> poste 4<br> <b>max_consomation : </b> 15400 KW</div>`)[0];
+            popup_3806cbd36c8c415d82d873f04d84d033.setContent(html_94e8246f55fe4e5d99f775273a2aba0e);
+        
+
+        marker_4aac8bf5986e4bb59298ef2529b1fdc8.bindPopup(popup_3806cbd36c8c415d82d873f04d84d033)
+        ;
+
+        
+    
+    
+            var marker_ae5b51f3766642a3b461c78536e1e4f9 = L.marker(
+                [36.191074, 1.256291],
+                {}
+            ).addTo(feature_group_2bc72d2597304c62b6a5b2882a6edde8);
+        
+    
+            var icon_c168ce25dbe041f8897504c231ebc04d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ae5b51f3766642a3b461c78536e1e4f9.setIcon(icon_c168ce25dbe041f8897504c231ebc04d);
+        
+    
+        var popup_228ad6bd485042ad96ede8643e389771 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c791043987e475fbd3dc5c3b2ed0eec = $(`<div id="html_6c791043987e475fbd3dc5c3b2ed0eec" style="width: 100.0%; height: 100.0%;"><b>name  : </b> poste 5<br> <b>max_consomation : </b> 1000 KW</div>`)[0];
+            popup_228ad6bd485042ad96ede8643e389771.setContent(html_6c791043987e475fbd3dc5c3b2ed0eec);
+        
+
+        marker_ae5b51f3766642a3b461c78536e1e4f9.bindPopup(popup_228ad6bd485042ad96ede8643e389771)
+        ;
+
+        
+    
+    
+            var marker_c540693b90c2449db67026d55dbf3b1d = L.marker(
+                [36.201368, 1.2629629999999998],
+                {}
+            ).addTo(feature_group_2bc72d2597304c62b6a5b2882a6edde8);
+        
+    
+            var icon_80410b0522704d1db744100ea33e3997 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c540693b90c2449db67026d55dbf3b1d.setIcon(icon_80410b0522704d1db744100ea33e3997);
+        
+    
+        var popup_33de0e2a017d4045b41139b62bbfe4e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18506c39ccba4fe7bd79adde0652399f = $(`<div id="html_18506c39ccba4fe7bd79adde0652399f" style="width: 100.0%; height: 100.0%;"><b>name  : </b> poste 6<br> <b>max_consomation : </b> 1587 KW</div>`)[0];
+            popup_33de0e2a017d4045b41139b62bbfe4e8.setContent(html_18506c39ccba4fe7bd79adde0652399f);
+        
+
+        marker_c540693b90c2449db67026d55dbf3b1d.bindPopup(popup_33de0e2a017d4045b41139b62bbfe4e8)
+        ;
+
+        
+    
+    
+            var marker_dc4e123d6358457ebdcef48c1f31617d = L.marker(
+                [36.211449, 1.266466],
+                {}
+            ).addTo(feature_group_2bc72d2597304c62b6a5b2882a6edde8);
+        
+    
+            var icon_225fc02c4b6e4da6a8174608235eed1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dc4e123d6358457ebdcef48c1f31617d.setIcon(icon_225fc02c4b6e4da6a8174608235eed1b);
+        
+    
+        var popup_f1985ebf2475429d86d6fd112b7e0672 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0944ba04e514b82811064ad72c1bb95 = $(`<div id="html_d0944ba04e514b82811064ad72c1bb95" style="width: 100.0%; height: 100.0%;"><b>name  : </b> poste 7<br> <b>max_consomation : </b> 12457 KW</div>`)[0];
+            popup_f1985ebf2475429d86d6fd112b7e0672.setContent(html_d0944ba04e514b82811064ad72c1bb95);
+        
+
+        marker_dc4e123d6358457ebdcef48c1f31617d.bindPopup(popup_f1985ebf2475429d86d6fd112b7e0672)
+        ;
+
+        
+    
+    
+            var marker_0e9bb4cb2dc64eb5866b7f8d1367061f = L.marker(
+                [36.213449, 1.2755100000000001],
+                {}
+            ).addTo(feature_group_2bc72d2597304c62b6a5b2882a6edde8);
+        
+    
+            var icon_7ec6687113c0434eafd58df5d19c3308 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0e9bb4cb2dc64eb5866b7f8d1367061f.setIcon(icon_7ec6687113c0434eafd58df5d19c3308);
+        
+    
+        var popup_7e42b205e21a468b803ad921439c6009 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e0b439af4854a26aecb47fd30dc278a = $(`<div id="html_7e0b439af4854a26aecb47fd30dc278a" style="width: 100.0%; height: 100.0%;"><b>name  : </b> poste 8<br> <b>max_consomation : </b> 21000 KW</div>`)[0];
+            popup_7e42b205e21a468b803ad921439c6009.setContent(html_7e0b439af4854a26aecb47fd30dc278a);
+        
+
+        marker_0e9bb4cb2dc64eb5866b7f8d1367061f.bindPopup(popup_7e42b205e21a468b803ad921439c6009)
+        ;
+
+        
+    
+    
+            var marker_23e13e5fe2194cb8a5aa5b4f6a237136 = L.marker(
+                [36.208001, 1.270849],
+                {}
+            ).addTo(feature_group_2bc72d2597304c62b6a5b2882a6edde8);
+        
+    
+            var icon_ef1500f4fff741cfbc87a28219617117 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_23e13e5fe2194cb8a5aa5b4f6a237136.setIcon(icon_ef1500f4fff741cfbc87a28219617117);
+        
+    
+        var popup_c1b89a21cbf04efc9822a9116b94f38a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3e85a7e1d394593bde692a4e70d4002 = $(`<div id="html_a3e85a7e1d394593bde692a4e70d4002" style="width: 100.0%; height: 100.0%;"><b>name  : </b> poste 9<br> <b>max_consomation : </b> 10002 KW</div>`)[0];
+            popup_c1b89a21cbf04efc9822a9116b94f38a.setContent(html_a3e85a7e1d394593bde692a4e70d4002);
+        
+
+        marker_23e13e5fe2194cb8a5aa5b4f6a237136.bindPopup(popup_c1b89a21cbf04efc9822a9116b94f38a)
+        ;
+
+        
+    
+    
+            var marker_a7344428749e411c8ae5fdd90f1f16cb = L.marker(
+                [36.200765999999994, 1.266786],
+                {}
+            ).addTo(feature_group_2bc72d2597304c62b6a5b2882a6edde8);
+        
+    
+            var icon_591975d33e47415b9232b7efeb576ea3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7344428749e411c8ae5fdd90f1f16cb.setIcon(icon_591975d33e47415b9232b7efeb576ea3);
+        
+    
+        var popup_44a6933845924bd3ac540232664c34d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3781e79e2134824abbbb375afb7e199 = $(`<div id="html_d3781e79e2134824abbbb375afb7e199" style="width: 100.0%; height: 100.0%;"><b>name  : </b> poste 10<br> <b>max_consomation : </b> 5280 KW</div>`)[0];
+            popup_44a6933845924bd3ac540232664c34d6.setContent(html_d3781e79e2134824abbbb375afb7e199);
+        
+
+        marker_a7344428749e411c8ae5fdd90f1f16cb.bindPopup(popup_44a6933845924bd3ac540232664c34d6)
+        ;
+
+        
+    
+</script>
